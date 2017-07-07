@@ -27,3 +27,15 @@ Type `jupyter notebook` in terminal in the main directory and the code will appe
 ## Credits
 
 Credits go to [Trask](http://iamtrask.github.io/2015/07/12/basic-python-network/) and [Litery](https://github.com/Litery). I've merely created a wrapper to get people started. 
+
+## Python 2/3 Troubleshooting 
+
+## Conda
+Install Conda https://conda.io/docs/installation.html
+
+//OSX / Linux Windows
+conda create -n maths python=3.5
+source activate maths
+conda install pandas matplotlib jupyter notebook scipy scikit-learn nb_conda  
+
+
